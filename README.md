@@ -11,33 +11,35 @@
 
 ### Some important takeway from these presentations :
 
->> Lean and thin in comparision to Virtuals Machines
+Lean and thin in comparision to Virtuals Machines
+
 ![Containers vs VMs](https://drive.google.com/uc?id=1pBJ0L11_hTcn3De4RScfG8rlnj4r2r0H)
 
->> Streamlines development across different OS and tech stack
+Streamlines development across different OS and tech stack
+
 ![Development lifecycle](https://drive.google.com/uc?id=1Hw3hLhDHqkvYVn4FdSnG9aOzieKlFgK9)
 
->> Supports full Continuous Integration /Continuous Deployment lifecycle
+Supports full Continuous Integration /Continuous Deployment lifecycle
+
 ![Testing and deployment lifecycle](https://drive.google.com/uc?id=1qcucrz-V8Z5kcmHbeUCb1PYhC1lsQojy)
-
-
-
 
 ## Installation
 
 ### For window: Docker Desktop for Windows
-> [Windows install](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
->> ***Requires Microsoft Windows 10 Professional or Enterprise 64-bit***
+[Windows install](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
-> [Other windows versions](https://docs.docker.com/toolbox/overview/)
+***Requires Microsoft Windows 10 Professional or Enterprise 64-bit***
+
+[Other windows versions](https://docs.docker.com/toolbox/overview/)
 
 ### For Mac: Docker Desktop for Mac
-> [Mac Install](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
+[Mac Install](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 
 ## Obligatory hello world !!
   Lets run a docker hello world to make sure docker is installed properly on your machine.
-> ##### Check if docker installed properly
->>> In command prompt type ```c:> docker images```
+
+##### Check if docker installed properly
+In command prompt type ```c:> docker images```
 
 If everything is good then you should see something like this if this is your first install of docker as there should be no images.
 
@@ -51,7 +53,8 @@ You should see something like this
 
 ![docker-hello-world-run](https://drive.google.com/uc?id=1Hht5ynW62pDqbJJQ8NBKeFZotXT9RJaN)
 
->>> If you see some error in connection restart your docker and try again.
+***If you see some error in connection restart your docker and try again***
+
 Lets discuss what happened here. Docker daemon tries to look for the hello-world images in local repository. Doesn't find it and goes to docker hub repo to download. The output also explains this.
 
 ***If you reached this part then you have successfully installed docker***
