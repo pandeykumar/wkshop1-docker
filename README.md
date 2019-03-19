@@ -52,9 +52,9 @@ You should see something like this
 ![docker-hello-world-run](https://drive.google.com/uc?id=1Hht5ynW62pDqbJJQ8NBKeFZotXT9RJaN)
 
 >>> If you see some error in connection restart your docker and try again.
-Lets discuss what happened here. Docker daemon tries to look for the hello-world images in local repository. Doesn't find it and goes to docker hub repo to download. The out also explains this.
+Lets discuss what happened here. Docker daemon tries to look for the hello-world images in local repository. Doesn't find it and goes to docker hub repo to download. The output also explains this.
 
-***If you reached this part then you have successfuly installed docker ***
+***If you reached this part then you have successfully installed docker***
 
 ## Lets build our own image.
 
@@ -92,9 +92,7 @@ This creates a package.json file  with references for the project.
 
 ![npm init](https://drive.google.com/uc?id=1tIB2MPeHPmcLEIQnS7bu_rzZc5x7k3Uh)
 
-![package.json](https://drive.google.com/uc?id=1b-d2hq4wj3OMRqWyhWmnUkkusHNy9kCi)
-
-5. Install Express in *nodejs-hello-world* directory
+5. Install ***Express*** in *nodejs-hello-world* directory
 
   While in *nodejs-hello-world* run
   ```
