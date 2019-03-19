@@ -38,10 +38,10 @@ Supports full Continuous Integration /Continuous Deployment lifecycle
 ## Obligatory hello world !!
   Lets run a docker hello world to make sure docker is installed properly on your machine.
 
-##### Check if docker installed properly
+##### Check if docker is installed properly
 In command prompt type ```c:> docker images```
 
-If everything is good then you should see something like this if this is your first install of docker as there should be no images.
+If everything is good then you should see something like this.
 
 ![docker images](https://drive.google.com/uc?id=1WFNoi7Owk_mLpS5fhmd4rFUN0SZfEc7v)
 
@@ -59,10 +59,10 @@ Lets discuss what happened here. Docker daemon tries to look for the hello-world
 
 ***If you reached this part then you have successfully installed docker***
 
-## Now we will dockerize  nodejs 'hello world' app and run it locally##
+## Now we will dockerize  nodejs 'hello world' app and run it locally
 
 
-### Let install nodejs and npm package manager if you don't already have it
+### Lets install nodejs and npm package manager if you don't already have it
 1. Download nodejs from https://nodejs.org/en/
 
 2. Select all the defaults mentioned by the installer.
@@ -74,9 +74,9 @@ Lets discuss what happened here. Docker daemon tries to look for the hello-world
  Should see something like this :
  ![node version](https://drive.google.com/uc?id=160iwOvhJK7Kkx3H2IeUA1R0s5tMoOuJq)
 
+### Setup the nodejs app in this repository
 
-### Create a nodejs app from this repository
-1. cd to *nodejs-hello-world* and run install command to download all the related node packages as specified in the package.json
+1. cd to *nodejs-hello-world* and run npm install command to download all the related node packages as specified in the package.json
 
 ```
 cd nodejs-hello-world
