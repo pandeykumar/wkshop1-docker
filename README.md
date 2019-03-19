@@ -56,7 +56,10 @@ Lets discuss what happened here. Docker daemon tries to look for the hello-world
 
 ***If you reached this part then you have successfully installed docker***
 
-## Let install nodejs and npm package manager if you don't already have it
+## Now we will dockerize  nodejs 'hello world' app and run it locally##
+
+
+### Let install nodejs and npm package manager if you don't already have it
 1. Download nodejs from https://nodejs.org/en/
 
 2. Select all the defaults mentioned by the installer.
@@ -69,7 +72,7 @@ Lets discuss what happened here. Docker daemon tries to look for the hello-world
  ![node version](https://drive.google.com/uc?id=160iwOvhJK7Kkx3H2IeUA1R0s5tMoOuJq)
 
 
-## Create a nodejs app from this repository
+### Create a nodejs app from this repository
 1. cd to *nodejs-hello-world* and run install command to download all the related node packages as specified in the package.json
 
 ```
@@ -85,7 +88,7 @@ Notice that it created a *node_modules* folder and installed all the necessary p
 You should see output like this -
 ```Example app listening on port 3000!```
 
-## Great!! Now lets dockerize the nodejs app.
+### Great!! Now lets dockerize the nodejs app.
 
 Dockerfile defines what goes inside your image.
 Read more here [Docker file](https://docs.docker.com/get-started/part2/)
@@ -103,7 +106,7 @@ Lets break it down
 
 What this saying is that use an official nodejs 11 as parent images
 
-docekr deaemon look at at local repo else will fetch this parent image from dockerhub.
+docker daemon first looks at local repo else will fetch this parent image from dockerhub.
 
 ```WORKDIR /nodejs-hello-world```
 
@@ -121,7 +124,7 @@ Run ***node apps.js*** when the container launches
 
 ```docker build  -t my-hello-world .```
 
-Note the . in the command. -t will tab it with my-hello-world.
+Note the . in the command. -t will tag it with my-hello-world.
 
 You should see activity like these
 
@@ -129,7 +132,7 @@ You should see activity like these
 
 This should create an image of your application and stored on local repository.
 
-3. Verify that image is created and stored in the local repository
+3. Verify that the image is created and stored in the local repository
 
 ```docker images```
 
@@ -137,9 +140,9 @@ Should see something like this
 
 ![docekr images](https://drive.google.com/uc?id=14kG_e-WcbbYvKVTizWTkt2v-yXyjPE5w)
 
-4. Run the image to create a continer that will run the nodejs app
+4. Run the image to create a container that will run the nodejs app
 
-```docker run -d  -p 3000:3000 my-hello-world
+```docker run -d  -p 3000:3000 my-hello-world```
 
 -d runs it in detached mode so that you can use command prompt on host machine
 -p will map the TCP port on the container to the port in the host.
