@@ -69,7 +69,7 @@ Lets discuss what happened here. Docker daemon tries to look for the hello-world
 
  2.1 Make sure node installed properly by running the node command
  ```
- c:\ node version
+ c:\ node --version
  ```
  Should see something like this :
  ![node version](https://drive.google.com/uc?id=160iwOvhJK7Kkx3H2IeUA1R0s5tMoOuJq)
