@@ -207,5 +207,17 @@ app.listen(3000, function () {
   ```
 node app.js
   ```
-7. Test the app by going to your browser at ***http://localhost:3000/***
+7. Test the app by going to your browser at http://localhost:3000/
 You should see 'Hello My World!' being printed on the web page
+
+## What about the .net world
+
+There is good news!.
+
+https://hub.docker.com/_/microsoft-dotnet-framework-aspnet
+
+https://hub.docker.com/_/microsoft-dotnet-core-samples
+
+```docker run -it --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp```
+
+Navigate to http://localhost:8000
