@@ -86,7 +86,7 @@ npm install
 Notice that it created a *node_modules* folder and installed all the necessary packages
 
 2. Run the web app using node command
-```node app.sj```
+```node app.js```
 
 You should see output like this -
 ```Example app listening on port 3000!```
