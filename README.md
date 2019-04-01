@@ -214,9 +214,12 @@ You should see 'Hello My World!' being printed on the web page
 
 There is good news!.
 
-https://hub.docker.com/_/microsoft-dotnet-framework-aspnet
+7.1 How to containerize a .NET Core application
+https://docs.microsoft.com/en-us/dotnet/core/docker/docker-basics-dotnet-core
 
-https://hub.docker.com/_/microsoft-dotnet-core-samples
+7.2 ASP.NET
+
+https://hub.docker.com/_/microsoft-dotnet-framework-aspnet
 
 ```docker run -it --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp```
 
