@@ -224,3 +224,8 @@ https://hub.docker.com/_/microsoft-dotnet-framework-aspnet
 ```docker run -it --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp```
 
 Navigate to http://localhost:8000
+
+
+## Useful links
+
+1. [Demystifying containers 101](https://medium.freecodecamp.org/demystifying-containers-101-a-deep-dive-into-container-technology-for-beginners-d7b60d8511c1)
